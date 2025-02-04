@@ -13,6 +13,3 @@ Although 4-bit quantized small LLMs have been proposed recently, many studies ha
 # Citation
 If you find this repo useful in your research, please consider citing the following paper:
 ```
-
-
-# Contributing
