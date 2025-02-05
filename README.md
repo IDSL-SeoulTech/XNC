@@ -8,9 +8,23 @@ Although 4-bit quantized small LLMs have been proposed recently, many studies ha
 ```
 conda create -n xnc python=3.11
 conda activate xnc
+```
 
-## Experiments
+## Results
+
+|Model|All Zero|Narrow Pattern|Non Pattern|2nd,14th,15th,16th bit All Zero|2nd,14th,15th,16th bit Non-All Zero|
+|------|---|---|---|---|---|
+|Llama-3.2-1B|≈ 0%|0.26%|99.73%|99.83%|0.17%|
+|Gemma-2-2B|≈ 0%|테스트3|테스트2|테스트3|테스트3|
+|테스트1|테스트2|테스트3|테스트2|테스트3|테스트3|
+
+![image](https://github.com/user-attachments/assets/b5ed038e-b184-424a-bf31-fca4d0ef6466)
+
+![image](https://github.com/user-attachments/assets/099e8af7-6c1d-41ab-b2a3-d3f555c772bb)
+
 
 ## Citation
 If you find this repo useful in your research, please consider citing the following paper:
+```
+
 ```
