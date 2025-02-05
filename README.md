@@ -1,5 +1,5 @@
 # XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models
-<img alt="ieee" src ="https://img.shields.io/badge/ieee-00629B.svg?&style=flat-square&logo=ieee&logoColor=white"/>
+<img alt="paper" src ="https://img.shields.io/badge/ieee-00629B.svg?&style=flat-square&logo=ieee&logoColor=white"/>
 ![image](https://github.com/user-attachments/assets/bb39dda5-b5c8-4192-a740-936a5417ab63)
 
 ## Abstart
