@@ -14,7 +14,7 @@ conda activate xnc
 - ss
 
 |model|All Zero|Narrow Pattern|Non Pattern|2<sup>nd</sup>, 14<sup>th</sup>, 15<sup>th</sup>, <br> 16<sup>th</sup> bit all zero|2<sup>nd</sup>, 14<sup>th</sup>, 15<sup>th</sup>,  <br> 16<sup>th</sup> bit Non-All Zero|
-|----------------|---|---|---|---|---|
+|:----------------:|:---:|:---:|:---:|:---:|:---:|
 |Llama-3.2-1B|≈ 0%|0.26%|99.73%|99.83%|0.17%|
 |Llama-3.2-3B|%|%|%|99.83%|0.17%|
 |Gemma-2-2B|≈ 0%|0.26%|99.73%|99.90%|0.10%|
