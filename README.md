@@ -8,7 +8,7 @@ Although 4-bit quantized small LLMs have been proposed recently, many studies ha
 ## Installation
 1. Clone the repository and move to XNC:
 ```
-git clone https://github.com/IDSL-SeoulTech/XNC.git
+git clone https://github.com/IDSL-SeoulTech/XNC
 cd XNC
 ```
 2. Set up environment:
