@@ -20,7 +20,7 @@ pip install transformers==4.48.0 accelerate
 ```
 
 ## Results
-- XNC analyzed the data patterns of the FP16 embedding layer and confirmed that specific bit positions (e.g., 2nd, 14th, 15th, and 16th) are zero in over 99% of the cases.
+- XNC analyzed the data patterns of the FP16 embedding layer and confirmed that specific bit positions (e.g., 2nd, 14th, 15th, and 16th) were zero in over 99% of the cases.
 
 |model|All Zero|Narrow Pattern|Non Pattern|2<sup>nd</sup>, 14<sup>th</sup>, 15<sup>th</sup>, <br> 16<sup>th</sup> bit all zero|2<sup>nd</sup>, 14<sup>th</sup>, 15<sup>th</sup>,  <br> 16<sup>th</sup> bit Non-All Zero|
 |:----------------:|:---:|:---:|:---:|:---:|:---:|
@@ -40,7 +40,7 @@ pip install transformers==4.48.0 accelerate
 - XNC achieved the highest compression ratio among various lossless compression methods and compressed the sLLM embedding layer by an average of 1.34×.
 ![image](https://github.com/user-attachments/assets/b5ed038e-b184-424a-bf31-fca4d0ef6466)
 
-- ss
+- XNC achieved lossless compression to 9-bit and 12-bit, resulting in an average 9.91× reduction in the total parameter count of 4-bit quantized LLMs. Additionally, XNC demonstrated superior compression efficiency in small VLMs, proving its scalability in multimodal systems.
 ![image](https://github.com/user-attachments/assets/099e8af7-6c1d-41ab-b2a3-d3f555c772bb)
 
 
