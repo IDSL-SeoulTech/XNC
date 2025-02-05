@@ -1,4 +1,4 @@
-# XNC: XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models
+# XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models
 ![image](https://github.com/user-attachments/assets/bb39dda5-b5c8-4192-a740-936a5417ab63)
 
 ## Abstart
