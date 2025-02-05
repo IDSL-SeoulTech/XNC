@@ -10,7 +10,7 @@ Although 4-bit quantized small LLMs have been proposed recently, many studies ha
 git clone https://github.com/IDSL-SeoulTech/XNC
 cd XNC
 ```
-2. Set up environment
+2. Set up environment:
 ```
 conda create -n xnc python=3.11
 conda activate xnc
