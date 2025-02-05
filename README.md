@@ -9,7 +9,8 @@ Although 4-bit quantized small LLMs have been proposed recently, many studies ha
 conda create -n xnc python=3.11
 conda activate xnc
 
-pip install -e .
+pip install torch==2.5.1
+pip install transformers==4.38.0 accelerate
 ```
 
 ## Results
