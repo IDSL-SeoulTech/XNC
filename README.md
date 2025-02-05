@@ -20,7 +20,7 @@ pip install transformers==4.48.0 accelerate
 ```
 
 ## Results
-- ss
+- XNC analyzed the data patterns of the FP16 embedding layer and confirmed that specific bit positions (e.g., 2nd, 14th, 15th, and 16th) are zero in over 99% of the cases.
 
 |model|All Zero|Narrow Pattern|Non Pattern|2<sup>nd</sup>, 14<sup>th</sup>, 15<sup>th</sup>, <br> 16<sup>th</sup> bit all zero|2<sup>nd</sup>, 14<sup>th</sup>, 15<sup>th</sup>,  <br> 16<sup>th</sup> bit Non-All Zero|
 |:----------------:|:---:|:---:|:---:|:---:|:---:|
