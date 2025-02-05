@@ -37,7 +37,7 @@ pip install transformers==4.48.0 accelerate
 |SmolVLM-256M|0.02%|0.26%|99.72%|99.98%|0.02%|
 |Qwen-2.5-VL-3B|≈ 0%|0.26%|99.73%|99.85%|0.15%|
 
-- ss
+- XNC achieved the highest compression ratio among various lossless compression methods and compressed the sLLM embedding layer by an average of 1.34×.
 ![image](https://github.com/user-attachments/assets/b5ed038e-b184-424a-bf31-fca4d0ef6466)
 
 - ss
