@@ -13,7 +13,7 @@ conda activate xnc
 ## Results
 
 |Model|All Zero|Narrow Pattern|Non Pattern|2nd,14th,15th,16th bit All Zero|2nd,14th,15th,16th bit Non-All Zero|
-|-------|---|---|---|---|---|
+|-------------|---|---|---|---|---|
 |Llama-3.2-1B|≈ 0%|0.26%|99.73%|99.83%|0.17%|
 |Llama-3.2-3B|%|%|%|%|%|
 |Gemma-2-2B|≈ 0%|0.26%|99.73%|99.90%|0.10%|
