@@ -8,6 +8,8 @@ Although 4-bit quantized small LLMs have been proposed recently, many studies ha
 ```
 conda create -n xnc python=3.11
 conda activate xnc
+
+pip install -e .
 ```
 
 ## Results
