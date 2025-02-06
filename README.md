@@ -44,7 +44,7 @@ pip install transformers==4.48.0 accelerate
 - XNC achieved the highest compression ratio among various lossless compression methods and compressed the sLLM embedding layer by an average of 1.34×.
 ![image](https://github.com/user-attachments/assets/b5ed038e-b184-424a-bf31-fca4d0ef6466)
 
-- XNC achieved lossless compression to 9-bit and 12-bit, resulting in an average 9.91× reduction in the total parameter count of 4-bit quantized sLLMs. Additionally, XNC demonstrated superior compression efficiency in small VLMs, proving its scalability in multimodal systems.
+- XNC achieved lossless compression to 9-bit and 12-bit, resulting in an average 9.91% reduction in the total parameter count of 4-bit quantized sLLMs. Additionally, XNC demonstrated superior compression efficiency in small VLMs, proving its scalability in multimodal systems.
 ![image](https://github.com/user-attachments/assets/099e8af7-6c1d-41ab-b2a3-d3f555c772bb)
 
 
