@@ -20,7 +20,7 @@ conda create -n xnc python=3.11
 conda activate xnc
 
 pip install torch==2.5.1
-pip install transformers==4.48.0 accelerate
+pip install transformers==4.49.0.dev0 accelerate
 
 (If an error occurs when applying the latest huggingface model)
 pip install git+https://github.com/huggingface/transformers accelerate
