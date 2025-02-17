@@ -19,8 +19,8 @@ def xnc_transform(weight_data):
     uint16_array = np_array.view(np.uint16)
 
     result = np.empty_like(uint16_array)
-    sign_mask = 0x8000
-    invert_mask = 0x7800
+    sign_mask = 0x8000 # 1000 0000 0000 0000
+    invert_mask = 0x7800 # 0111 1000 0000 0000
 
     for i in range(len(uint16_array)):
         val = uint16_array[i] if i == 0 else np.bitwise_xor(uint16_array[i-1], uint16_array[i])
