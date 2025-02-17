@@ -40,7 +40,7 @@ def save_model_weights(model_path, save_dir, flatten=True):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Save embedding weights from a model.')
     parser.add_argument('--model', type=str, default="HuggingFaceTB/SmolLM-135M", help='Model ID or path to load')
-    parser.add_argument('--save_dir', type=str, default="/home/hyeok/XNC_compression/xnc_git/embedding_weight/SmolLM-135M", help='Directory to save weights')
+    parser.add_argument('--save_dir', type=str, default="/path/embedding_weight/SmolLM-135M", help='Directory to save weights')
     parser.add_argument('--flatten', action='store_true', help='Flatten weights before saving')
 
     args = parser.parse_args()
