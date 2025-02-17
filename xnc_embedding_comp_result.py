@@ -127,7 +127,7 @@ def compress_file(input_file, output_txt):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Saves compression statistics of a 1D FP16 tensor to a text file.')
     parser.add_argument('--input_pt', type=str, default='/xnc/xnc_embedding_weight/SmolLM-135M/SmolLM-135M_embed_tokens_XNC.pt', help='Input pt file path')
-    parser.add_argument('--output_txt', type=str, default='/xnc/result/SmolLM-135M_text_model_embed_tokens_XNC_compressed_output.txt', help='Output txt file path')
+    parser.add_argument('--output_txt', type=str, default='/xnc/result/SmolLM-135M_embed_tokens_XNC_result', help='Output txt file path')
     args = parser.parse_args()
     
     compress_file(args.input_pt, args.output_txt)
