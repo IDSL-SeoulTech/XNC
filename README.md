@@ -27,14 +27,19 @@ pip install git+https://github.com/huggingface/transformers accelerate
 
 ```
 ## Usage
-1. embedding weight store
+1. embedding_weight_store.py
 ```
+python embedding_weight_store.py --model <model_name_or_path> --save_dir <output_directory> [--flatten]
+
 ```
-2. xnc compression
+2. xnc_compression.py
 ```
+python xnc_compression.py --input <path_to_input_file> --output <path_to_output_file>
 ```
-3. result
+3. xnc_embedding_comp_result.py
 ```
+python xnc_embedding_comp_result.py --input_pt <path_to_input_file> --output_txt <path_to_output_file>
+
 ```
 
 ## Results
