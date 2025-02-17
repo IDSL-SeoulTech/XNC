@@ -55,5 +55,12 @@ pip install git+https://github.com/huggingface/transformers accelerate
 ## Citation
 If you find this repo useful in your research, please consider citing the following paper:
 ```
-
+@inproceedings{lee2025xnc,
+  title={XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models},
+  author={Junghyeok, Lee and Jihoon, Jang and Hyun, Kim},
+  booktitle={2025 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
+}
 ```
