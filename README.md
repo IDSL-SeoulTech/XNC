@@ -1,5 +1,5 @@
 # XNC: XOR and NOT-Based Lossless Compression for Optimizing Unquantized Embedding Layers in Large Language Models
-[[ISCAS 2025]](https://scholar.google.co.kr/schhp?hl=ko)
+[[ISCAS 2025]]([https://scholar.google.co.kr/schhp?hl=ko](https://2025.ieee-iscas.org/))
 
 XNC is a simple and effective lossless compression method that achieves an average compression ratio of 1.34× for the embedding layer of modern sLLMs. Additionally, it further compresses 4-bit quantized sLLMs by an average of 9.91%.
 
