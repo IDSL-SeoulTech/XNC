@@ -26,6 +26,9 @@ pip install transformers==4.49.0.dev0 accelerate
 pip install git+https://github.com/huggingface/transformers accelerate
 
 ```
+## Usage
+```
+```
 
 ## Results
 - XNC analyzed the data patterns of the FP16 embedding layer and confirmed that specific bit positions (e.g., 2nd, 14th, 15th, and 16th) were zero in over 99% of the cases.
