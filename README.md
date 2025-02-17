@@ -27,6 +27,13 @@ pip install git+https://github.com/huggingface/transformers accelerate
 
 ```
 ## Usage
+1. embedding weight store
+```
+```
+2. xnc compression
+```
+```
+3. result
 ```
 ```
 
