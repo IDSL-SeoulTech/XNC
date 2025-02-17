@@ -33,8 +33,8 @@ def xnc_transform(weight_data):
 
 def main():
     parser = argparse.ArgumentParser(description='Transforms a saved pt file using XNC transformation and saves it.')
-    parser.add_argument('--input', type=str, default='/path/embedding_weight/SmolLM-135M/model_embed_tokens_weight.pt', help='Input pt file path')
-    parser.add_argument('--output', type=str, default='/path/xnc_embedding_weight/SmolLM-135M/SmolLM-135M_embed_tokens_XNC.pt', help='Output pt file path')
+    parser.add_argument('--input', type=str, default='/xnc/embedding_weight/SmolLM-135M/model_embed_tokens_weight.pt', help='Input pt file path')
+    parser.add_argument('--output', type=str, default='/xnc/xnc_embedding_weight/SmolLM-135M/SmolLM-135M_embed_tokens_XNC.pt', help='Output pt file path')
     args = parser.parse_args()
 
     loaded_data = torch.load(args.input, map_location='cpu', weights_only=True)
