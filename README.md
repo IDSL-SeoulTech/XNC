@@ -24,13 +24,11 @@ pip install transformers==4.49.0.dev0 accelerate
 
 (If an error occurs when applying the latest huggingface model)
 pip install git+https://github.com/huggingface/transformers accelerate
-
 ```
 ## Usage
 1. embedding_weight_store.py
 ```
 python embedding_weight_store.py --model <huggingface_model_or_model_path> --save_dir <output_directory>
-
 ```
 2. xnc_compression.py
 ```
