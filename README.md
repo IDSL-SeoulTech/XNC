@@ -30,13 +30,13 @@ pip install git+https://github.com/huggingface/transformers accelerate
 ```
 python embedding_weight_store.py --model <huggingface_model_or_model_path> --save_dir <output_directory>
 ```
-2. xnc_compression.py
+2. xnc_data_transform.py
 ```
-python xnc_compression.py --input <path_to_input_file> --output <path_to_output_file>
+python xnc_data_transform.py --original_weight <path_to_input_file> --xnc_comp_weight <path_to_output_file>
 ```
 3. xnc_embedding_comp_result.py
 ```
-python xnc_embedding_comp_result.py --input_pt <path_to_input_file> --output_txt <path_to_output_file>
+python xnc_embedding_comp_result.py --xnc_comp_weight <path_to_input_file> --result_dir <path_to_output_file>
 ```
 
 ## Results
