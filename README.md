@@ -34,9 +34,9 @@ python embedding_weight_store.py --model <huggingface_model_or_model_path> --sav
 ```
 python xnc_data_transform.py --original_weight <path_to_input_file> --xnc_comp_weight <path_to_output_file>
 ```
-3. xnc_embedding_comp_result.py
+3. xnc_comp_result.py
 ```
-python xnc_embedding_comp_result.py --xnc_comp_weight <path_to_input_file> --result_dir <path_to_output_file>
+python xnc_comp_result.py --xnc_comp_weight <path_to_input_file> --result_dir <path_to_output_file>
 ```
 
 ## Results
